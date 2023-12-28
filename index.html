@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="Icon" href="img/products/Berkah rizky.png">
+    <title>Berkah Rizky Las & Konstruksi</title>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;
+            700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- AlpineJs -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head> 
+ 
+  <!-- App -->
+  <script src="src/app.js" async></script>
+
+  <body>
+    <!--Navbar Start-->
+    <nav class="navbar" x-data> 
+      <a href="#" class="navbar-logo">BERKAH<span>&nbsp;RIZKY</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#hamburger-menu">Menu</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Shopping cart end -->
+    </nav>
+    <!--Navbar End-->
+
+    <!--hero section start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <img src="img/products/Berkah rizky.png" alt="" width="230" height="230">
+        <h1 class="title">Kami Upayakan yang Terbaik <br>
+          </h1><br><br>
+          <h1>Untuk anda</h1>
+        <a href="#products" class="cta"> Beli Sekarang</a>
+      </main>
+    </section>
+    <!--hero section end-->
+
+    <!--about section start-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Berkah Rizky Las & Konstruksi</h3>
+          <p>
+            Usaha kami bergerak di bidang jasa fabrikasi logam dan konstruksi. Kami menyediakan jasa perencanaan, pemotongan, pengelasan, dan perakitan berbagai jenis material logam/baja untuk kebutuhan konstruksi maupun produk custom
+            seperti furniture, tangga, pagar, dan lainnya.
+            <p>Kami selalu memprioritaskan kualitas dan tampilan produk akhir yang apik. Setiap proyek dilakukan dengan perhitungan dan perencanaan matang agar hasil las dan konstruksi
+              benar-benar kuat, tepat, dan tahan lama. Kami juga selalu update dengan teknologi terkini untuk memastikan effisiensi waktu pengerjaan.</p> 
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--about section end-->
+
+    <!-- Products Section start -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>Pemesanan dapat dilakukan dengan Whatsapp, melalui form yang kami sediakan</p>
+
+      <div class="row">
+        <div class="product-card reverse">
+          <div class="product-icons">
+            <a href="#" class="item-detail-button"><i class="fa-solid fa-info"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/pagar.jpg" alt="Pagar & Canopy" />
+          </div>
+          <div class="product-content">
+            <h3>Pagar & Canopy</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#" class="item-detail-button2"><i class="fa-solid fa-info"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/bingkai.jpg" alt="Bingkai Kaca Portable" />
+          </div>
+          <div class="product-content">
+            <h3>Bingkai Kaca Portable <br>(Bisa Bongkar Pasang)</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reverse">
+          <div class="product-icons">
+            <a href="#" class="item-detail-button3"><i class="fa-solid fa-info"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/panel.jpg" alt="Rangka Panel Surya Portable" />
+          </div>
+          <div class="product-content">
+            <h3>Rangka Panel Surya Portable</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#" class="item-detail-button4"><i class="fa-solid fa-info"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/rak bunga3.jpg" alt="Rak Bunga" />
+          </div>
+          <div class="product-content">
+            <h3>Rak Bunga</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reverse">
+          <div class="product-icons">
+            <a href="#" class="item-detail-button5"><i class="fa-solid fa-info"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/pintu besi.jpg" alt="Pintu Besi" />
+          </div>
+          <div class="product-content">
+            <h3>Pintu Besi</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#" class="item-detail-button6"><i class="fa-solid fa-info"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/rak.jpg" alt="Rak" />
+          </div>
+          <div class="product-content">
+            <h3>Rak</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section end -->
+
+    <section id="hamburger-menu" class="menu">
+      <h2><span>Contoh Produk</span> Rak Bunga</h2>
+      <p>Ini adalah beberapa contoh produk rak bunga kami</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/products/rak bunga.jpg" alt="bakso" class="menu-card-image" />
+        </div>
+        <div class="menu-card">
+          <img src="img/products/rak bunga2.jpg" alt="lecitea" class="menu-card-image" />
+        </div>
+        <div class="menu-card">
+          <img src="img/products/rak bunga3.jpg" alt="lecitea" class="menu-card-image" />
+        </div>
+        <div class="menu-card">
+          <img src="img/products/rak bunga4.jpg" alt="lecitea" class="menu-card-image" />
+        </div>
+        <div class="menu-card">
+          <img src="img/products/rak bunga5.jpg" alt="lecitea" class="menu-card-image" />
+
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact">
+      <h2><span>Formulir</span> Pesanan</h2>
+      <p>Pesan Produk Anda Disini!</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d248.8777423386875!2d98.63113780632477!3d3.5773897330852726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMzQnMzguMyJOIDk4wrAzNyc1Mi4xIkU!5e0!3m2!1sid!2sid!4v1684917337603!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="" id="formPesan">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" name="name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="home"></i>
+            <textarea name="email" id="" placeholder="Alamat"></textarea>
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="number" placeholder="Nomor HP" name="phone" />
+          </div>
+          <div class="input-group">
+            <i data-feather="bookmark"></i>
+            <input type="text" placeholder="Nama Produk" name="product" />
+          </div>
+          <p class="desc-input">*Pesanan yang anda tulis akan otomatis tertulis di Whatsapp kami. Kita bisa membicarakan tentang harga dll setelah anda mengirim data pesanan anda</p>
+
+          <button type="submit" class="btn" id="messageButton">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social">
+        <button class="btn-foot"><a href="https://instagram.com/_rizr14?igshid=ZGUzMzM3NWJiOQ=="><i data-feather="instagram"></i></a></button>
+        <button class="btn-foot"><a href="#"><i data-feather="youtube"></i></a></button>
+        <button class="btn-foot"><a href="#"><i data-feather="facebook"></i></a></button>
+        
+        
+        
+      </div>
+
+      <div class="links">
+        <button class="btn-foot"><a href="#home">Home</a></button>&nbsp;&nbsp;
+        <button class="btn-foot"><a href="#about">About Us</a></button>&nbsp;&nbsp;  
+        <button class="btn-foot"><a href="#menu">Menu</a></button>&nbsp;&nbsp; 
+        <button class="btn-foot"><a href="#contact">Contact</a></button>&nbsp;&nbsp;  
+        
+         
+        
+      </div>
+
+      <div class="credit">
+        <p>created by Mhd.Rizky Ramadhan.|&copy; 2023.</p>
+      </div>
+    </footer>
+
+    <!-- Modal box detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i class="fa-solid fa-x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/pagar.jpg" alt="Pagar & Canopy" />
+          <div class="product-content">
+            <h3>Pagar & Canopy</h3>
+            <p>Pagar besi dengan desain minimalis sederhana tapi tetap modern. Konstruksi kuat menggunakan besi hollow berkualitas. Pasangannya rapi menggunakan las dan baut penguat. Memiliki hiasan besi cantik di bagian atas dan gagang pintu solid.</p>
+            <p>Memiliki tiang dan rangka besi yang kuat serta stabil. Kanopi ini dapat melindungi area teras, garasi atau pintu masuk dari sengatan matahari dan hujan. Terpasang mudah dengan mur dan baut.</p>
+
+            <h4>*Pesan melalui whatsapp dengan form yang telah kami sediakan</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal2">
+      <div class="modal-container">
+        <a href="#" class="close-icon2"><i class="fa-solid fa-x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/bingkai.jpg" alt="Bingkai Kaca Portable" />
+          <div class="product-content">
+            <h3>Bingkai Kaca Portable <br>(Bisa Bongkar Pasang)</h3>
+            <p>Bingkai kaca berkualitas tinggi berdesain portable yang bisa dipasang dan dibongkar dengan mudah. Konstruksi menggunakan besi hollow yang kuat. Dilengkapi mur dan skrup pengunci sehingga bingkai dapat dengan kokoh berdiri sendiri saat terpasang.</p>
+
+            <h4>*Pesan melalui whatsapp dengan form yang telah kami sediakan</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal3">
+      <div class="modal-container">
+        <a href="#" class="close-icon3"><i class="fa-solid fa-x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/panel.jpg" alt="Rangka Panel Surya Portable" />
+          <div class="product-content">
+            <h3>Rangka Panel Surya Portable</h3>
+            <p>Dibuat dengan menggunakan besi berkualitas dan kokoh sehingga mempunyai kualitas yang sangat bagus ketika digunakan. Dengan bingkai yang adjustable atau mudah untuk diubah posisinya seusai keinginan</p>
+
+            <h4>*Pesan melalui whatsapp dengan form yang telah kami sediakan</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal4">
+      <div class="modal-container">
+        <a href="#" class="close-icon4"><i class="fa-solid fa-x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/rak bunga3.jpg" alt="Rak Bunga" />
+          <div class="product-content">
+            <h3>Rak Bunga</h3>
+            <p>Rak khusus untuk memajang pot bunga dan tanaman hias. Konstruksi kokoh namun ringan, mudah dipindahkan sesuai kebutuhan.</p>
+
+            <h4>*Pesan melalui whatsapp dengan form yang telah kami sediakan</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal5">
+      <div class="modal-container">
+        <a href="#" class="close-icon5"><i class="fa-solid fa-x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/pintu besi.jpg" alt="Pintu Besi" />
+          <div class="product-content">
+            <h3>Pintu Besi</h3>
+            <p>Pintu besi jaring model minimalis yang unik dan modern. Pintu bagian luar menggunakan konstruksi besi yang kuat dan kokoh. Sedangkan pintu bagian dalam dilapisi jaring besi ring mesh.
+              <br><br>
+              Jaring di desain pintu memberikan desain unik sekaligus ventilasi udara yg baik. Pintu besi ini dilengkapi engsel besi yang stabil ketika dibuka tutup.
+              <br><br>
+              Pintu besi jaring ini cocok sebagai pintu pembatas ruangan tamu, kamar tidur, ataupun gudang.</p>
+              <br>
+
+              <h4>*Pesan melalui whatsapp dengan form yang telah kami sediakan</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal6">
+      <div class="modal-container">
+        <a href="#" class="close-icon6"><i class="fa-solid fa-x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/rak.jpg" alt="Rak" />
+          <div class="product-content">
+            <h3>Rak</h3>
+            <p>Rak berkualitas terjamin. Bisa digunakan sebagain tempat untuk benda apapun yang anda inginkan. Kokoh tetapi ringan, dan mudah untuk dipindahkan</p>
+
+            <h4>*Pesan melalui whatsapp dengan form yang telah kami sediakan</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal box detail end -->
+
+    <!--Feather Icon-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--Javascript-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
